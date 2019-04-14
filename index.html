@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Exposición Reynel Perdomo</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap-grid.min.css" rel="stylesheet">
+    <link href="assets/css/bootstrap-reboot.min.css" rel="stylesheet">
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/app.css" rel="stylesheet">
+    
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+
+            <!-- SIDEMENU BAR LEFT -->
+            <nav class="col-2 sidebar" id="main-menu">
+                <div class="text-center">
+                    <img id="main-menu__logo" src="assets/imgs/uc-logo.png" alt="UC-LOGO" class="pt-1 pb-2">
+                </div><!-- /div.text-center -->
+                <div class="text-center">
+                    <a class="list-group-item-action" href="#cover-page"><h2 id="main-menu__title">Mecanica De Hardware II</h2></a>
+                </div><!-- /main-menu__title -->
+
+                <div class="list-group">
+                    <a class="list-group-item list-group-item-action" href="#item-1">Conceptos Previos</a>
+                    <a class="list-group-item list-group-item-action" href="#item-2">Funcionamiento de una PC</a>
+                    <a class="list-group-item list-group-item-action" href="#item-3">El Procesador</a>
+                    <a class="list-group-item list-group-item-action" href="#item-4">Elementos Internos</a>
+                    <a class="list-group-item list-group-item-action" href="#item-5">Temporización</a>
+                    <a class="list-group-item list-group-item-action" href="#item-6">Concepto de Interrupción</a>
+                </div><!-- /list-group -->
+            </nav><!-- /nav -->
+            <!-- /SIDEMENU BAR LEFT -->
+            
+            <!-- MAIN CONTENT -->
+            <main role="main" class="col-10 offset-2 p-0" data-spy="scroll" data-target="#main-menu" data-offset="0">
+                <section id="cover-page" class="text-center">
+                    <div id="cover-page__content">
+                        <h2 id="cover-page__content__title">Funcionamiento Interno de Un Computador</h2>
+                        <h5 id="cover-page__content__unit">UNIDAD I</h5>
+                        <h1 id="cover-page__content__student">Reynel Axel Perdomo</h1>
+                        <h4 id="cover-page__content__ID">2012-6517</h4>
+                    </div><!-- /cover-page__content -->
+                </section>
+                <section id="item-1">
+                    <h3>Conceptos Previos</h3>
+                    
+                    <div id="accordion__conceptos-previos" class="accodrion">
+                        
+                        <!-- CARD 1-->
+                        <div class="card">
+                            <div id="header-topic-1" class="card-header">
+                                <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#topic-1" aria-expanded="true" aria-controls="collapseOne">
+                                    Compuerta Lógica
+                                </button><!-- /btn -->
+                            </div><!-- /header-topic-1 -->
+                            <div id="topic-1" class="collapse" aria-labelledby="header-topic-1" data-parent="#accordion__conceptos-previos">
+                                <div class="row no-gutters">
+                                    <div class="col-3">
+                                        <img src="assets/imgs/conceptos-previos/compuertas.png" alt="no-image-aviable" class="card-img" />
+                                    </div><!-- /col -->
+                                    <div class="col-8">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Una puerta lógica, o compuerta lógica</h5>
+                                            <p class="card-text">Es un dispositivo electrónico con una función booleana. Suman, multiplican, niegan o afirman, incluyen o excluyen según sus propiedades lógicas. Se pueden aplicar a tecnología electrónica, eléctrica, mecánica, hidráulica y neumática. Son circuitos de conmutación integrados en un chip.</p>
+                                        </div><!-- /card-body -->
+                                    </div><!-- /col -->
+                                </div><!-- /row -->
+                            </div><!-- /topic-1 -->
+                        </div><!-- /card -->
+                        <!-- /CARD 1-->
+                        
+                        <!-- CARD 2-->
+                        <div class="card">
+                            <div id="header-topic-2" class="card-header">
+                                <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#topic-2" aria-expanded="true" aria-controls="collapseOne">
+                                    Biestable o Flip-Flop
+                                </button><!-- /btn -->
+                            </div><!-- /header-topic-2 -->
+                            <div id="topic-2" class="collapse" aria-labelledby="header-topic-2" data-parent="#accordion__conceptos-previos">
+                                <div class="row no-gutters">
+                                    <div class="col-3">
+                                        <img src="assets/imgs/conceptos-previos/flip-flop.png" alt="no-image-aviable" class="card-img" />
+                                    </div><!-- /col -->
+                                    <div class="col-8">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Un biestable (flip-flop en inglés)</h5>
+                                            <p class="card-text">Es un multivibrador capaz de permanecer en uno de dos estados posibles durante un tiempo indefinido en ausencia de perturbaciones.</p>
+                                        </div><!-- /card-body -->
+                                    </div><!-- /col -->
+                                </div><!-- /row -->
+                            </div><!-- /topic-2 -->
+                        </div><!-- /card -->
+                        <!-- /CARD 2-->
+                        
+                        <!-- CARD 3-->
+                        <div class="card">
+                            <div id="header-topic-4" class="card-header">
+                                <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#topic-3" aria-expanded="true" aria-controls="collapseOne">
+                                    Registro
+                                </button><!-- /btn -->
+                            </div><!-- /header-topic-3 -->
+                            <div id="topic-3" class="collapse" aria-labelledby="header-topic-3" data-parent="#accordion__conceptos-previos">
+                                <div class="row no-gutters">
+                                    <div class="col-3">
+                                        <img src="assets/imgs/conceptos-previos/registro.png" alt="no-image-aviable" class="card-img" />
+                                    </div><!-- /col -->
+                                    <div class="col-8">
+                                        <div class="card-body">
+                                            <h5 class="card-title">También llamado fila o TUPLA</h5>
+                                            <p class="card-text">Representa un objeto único de datos implícitamente estructurados en una tabla. En términos simples.</p>
+                                        </div><!-- /card-body -->
+                                    </div><!-- /col -->
+                                </div><!-- /row -->
+                            </div><!-- /topic-3 -->
+                        </div><!-- /card -->
+                        <!-- /CARD 3-->
+                        
+                        <!-- CARD 4-->
+                        <div class="card">
+                            <div id="header-topic-4" class="card-header">
+                                <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#topic-4" aria-expanded="true" aria-controls="collapseOne">
+                                    Decodificador/Codificador
+                                </button><!-- /btn -->
+                            </div><!-- /header-topic-4 -->
+                            <div id="topic-4" class="collapse" aria-labelledby="header-topic-4" data-parent="#accordion__conceptos-previos">
+                                <div class="row no-gutters">
+                                    <div class="col-3">
+                                        <img src="assets/imgs/conceptos-previos/codificador.jpg" alt="no-image-aviable" class="card-img" />
+                                    </div><!-- /col -->
+                                    <div class="col-8">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Circuito Integrado</h5>
+                                            <p class="card-text">Es un circuito hecho para pasar información de un sistema a otro con clave diferente, y en tal caso un decodificador sería el circuito o dispositivo que retorne los datos o información al primer sistema. </p>
+                                        </div><!-- /card-body -->
+                                    </div><!-- /col -->
+                                </div><!-- /row -->
+                            </div><!-- /topic-4 -->
+                        </div><!-- /card -->
+                        <!-- /CARD 4-->
+                        
+                        <!-- CARD 5-->
+                        <div class="card">
+                            <div id="header-topic-5" class="card-header">
+                                <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#topic-5" aria-expanded="true" aria-controls="collapseOne">
+                                    Multiplexor/Demultiplexor
+                                </button><!-- /btn -->
+                            </div><!-- /header-topic-5 -->
+                            <div id="topic-5" class="collapse" aria-labelledby="header-topic-5" data-parent="#accordion__conceptos-previos">
+                                <div class="row no-gutters">
+                                    <div class="col-3">
+                                        <img src="assets/imgs/conceptos-previos/multiplexor.png" alt="no-image-aviable" class="card-img" />
+                                    </div><!-- /col -->
+                                    <div class="col-8">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Diferencias...</h5>
+                                            <p class="card-text">Un multiplexor es un circuito combinacional de varias entradas de señal y una única salida. 
+                                                    Los demultiplexores efectúan la operación inversa de los multiplexores y se utilizan para distribuir una señal que llega por una única entrada a un conjunto de salidas.  De la misma forma, las entradas de selección permiten elegir a cuál de las salidas se redirige la señal de entrada.</p>
+                                        </div><!-- /card-body -->
+                                    </div><!-- /col -->
+                                </div><!-- /row -->
+                            </div><!-- /topic-5 -->
+                        </div><!-- /card -->
+                        <!-- /CARD 5-->
+                        
+                        <!-- CARD 6 -->
+                        <div class="card">
+                            <div id="header-topic-6" class="card-header">
+                                <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#topic-6" aria-expanded="true" aria-controls="collapseOne">
+                                    Memorias LIFO
+                                </button><!-- /btn -->
+                            </div><!-- /header-topic-6 -->
+                            <div id="topic-6" class="collapse" aria-labelledby="header-topic-6" data-parent="#accordion__conceptos-previos">
+                                <div class="row no-gutters">
+                                    <div class="col-3">
+                                        <img src="assets/imgs/conceptos-previos/lifo.jpg" alt="no-image-aviable" class="card-img" />
+                                    </div><!-- /col -->
+                                    <div class="col-8">
+                                        <div class="card-body">
+                                            <h5 class="card-title">LIFO (Last in-first out)</h5>
+                                            <p class="card-text">la última información introducida en la memoria es la primera en extraerse, es lo que se llama una pila o apilamiento. El término LIFO se utiliza en estructuras de datos y teoría de colas.</p>
+                                        </div><!-- /card-body -->
+                                    </div><!-- /col -->
+                                </div><!-- /row -->
+                            </div><!-- /topic-6 -->
+                        </div><!-- /card -->
+                        <!-- /CARD 6 -->
+                        
+                        <!-- CARD 7 -->
+                        <div class="card">
+                            <div id="header-topic-7" class="card-header">
+                                <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#topic-7" aria-expanded="true" aria-controls="collapseOne">
+                                    Memorias FIFO
+                                </button><!-- /btn -->
+                            </div><!-- /header-topic-7 -->
+                            <div id="topic-7" class="collapse" aria-labelledby="header-topic-7" data-parent="#accordion__conceptos-previos">
+                                <div class="row no-gutters">
+                                    <div class="col-3">
+                                        <img src="assets/imgs/conceptos-previos/fifo.PNG" alt="no-image-aviable" class="card-img" />
+                                    </div><!-- /col -->
+                                    <div class="col-8">
+                                        <div class="card-body">
+                                            <h5 class="card-title">FIFO (First In – First Out) | Primero en Entrar – Primero en Salir</h5>
+                                            <p class="card-text">Es lo que se llama una fila de espera. FIFO se utiliza en estructuras de datos para implementar colas. La implementación puede efectuarse con ayuda de arreglos o vectores, o bien mediante el uso de punteros y asignación dinámica de memoria.</p>
+                                        </div><!-- /card-body -->
+                                    </div><!-- /col -->
+                                </div><!-- /row -->
+                            </div><!-- /topic-7 -->
+                        </div><!-- /card -->
+                        <!-- /CARD 7 -->
+                        
+                        <!-- CARD 8 -->
+                        <div class="card">
+                            <div id="header-topic-8" class="card-header">
+                                <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#topic-8" aria-expanded="true" aria-controls="collapseOne">
+                                    Memoria Caché
+                                </button><!-- /btn -->
+                            </div><!-- /header-topic-8 -->
+                            <div id="topic-8" class="collapse" aria-labelledby="header-topic-8" data-parent="#accordion__conceptos-previos">
+                                <div class="row no-gutters">
+                                    <div class="col-3">
+                                        <img src="assets/imgs/conceptos-previos/cache.png" alt="no-image-aviable" class="card-img" />
+                                    </div><!-- /col -->
+                                    <div class="col-8">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Memoria Caché</h5>
+                                            <p class="card-text">Cuando en informática se habla de memoria caché o cache se está hablando de aquella cantidad de información que permanece de manera temporal en la computadora y que ayuda a la adquisición de velocidad y eficiencia cuando es necesario recurrir a determinado tipo de datos. El nombre de memoria cache proviene del francés, que significa "escondido" u "oculto".</p>
+                                        </div><!-- /card-body -->
+                                    </div><!-- /col -->
+                                </div><!-- /row -->
+                            </div><!-- /topic-8 -->
+                        </div><!-- /card -->
+                        <!-- /CARD 8 -->
+                        
+                        <!-- CARD 9 -->
+                        <div class="card">
+                            <div id="header-topic-9" class="card-header">
+                                <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#topic-9" aria-expanded="true" aria-controls="collapseOne">
+                                    Contador Ascendente
+                                </button><!-- /btn -->
+                            </div><!-- /header-topic-9 -->
+                            <div id="topic-9" class="collapse" aria-labelledby="header-topic-9" data-parent="#accordion__conceptos-previos">
+                                <div class="row no-gutters">
+                                    <div class="col-3">
+                                        <img src="assets/imgs/conceptos-previos/contador.gif" alt="no-image-aviable" class="card-img" />
+                                    </div><!-- /col -->
+                                    <div class="col-8">
+                                        <div class="card-body">
+                                            <h5 class="card-title">0_1_2_3_.....7</h5>
+                                            <p class="card-text">Este circuito puede contar hasta el número 7, es decir, 8 valores. Cuando llegue al último valor volverá a contar desde el principio. Podemos decir que el contador pasa por 8 estados distintos según su salida.</p>
+                                        </div><!-- /card-body -->
+                                    </div><!-- /col -->
+                                </div><!-- /row -->
+                            </div><!-- /topic-9 -->
+                        </div><!-- /card -->
+                        <!-- /CARD 9 -->
+                        
+                    </div><!-- /accordion__conceptos-previos -->
+                
+                </section><!-- /item-1 -->
+
+                <section id="item-2">
+                    <h3>Funcionamiento de Una Computadora</h3>
+                    <div id="pc-scheme">
+                        <svg id="pc-scheme-svg" style="position: absolute; width: 1000px; height: 350px;">
+                            <path id="e" fill="none" d="M112 215 h42"/>
+                            <path id="s" fill="none" d="M857 215 h42"/>
+                            <path id="e-cu" fill="none" d="M40 238 v100 h180 v-65"/>
+                            <path id="s-cu" fill="none" d="M950 238 v100 h-650 v-65"/>
+                            <path id="me" fill="none" d="M500 43 v20"/>
+                            <path id="me-cu" fill="none" d="M407 20 h-190 V228"/>
+                            <path id="mi-cu-1" fill="none" d="M440 134 v50 h-110 V228"/>
+                            <path id="mi-cu-2" fill="none" d="M407 112 h-120 V228"/>
+                            <path id="mi-alu" fill="none" d="M565 134 v50 h60 V228"/>
+                        </svg><!-- /pc-scheme-svg -->
+
+                        <div tabindex="0" class="pc-scheme__component entrada" data-toggle="popover" data-trigger="focus" title="Unidad de Entrada (E)" data-content="Es un dispositivo por el que se introducen en el computador los datos e instrucciones. En estas unidades se transforman las informaciones de entrada en señales binarias de naturaleza eléctrica.">Entrada (E)</div>
+
+                        <div tabindex="0" class="pc-scheme__component externa" data-toggle="popover" data-trigger="focus" title="Memoria Externa (ME)" data-content="Para guardar masivamente información se utilizan otros tipos de memoria, tales como discos magnéticos, discos ópticos y cintas magnéticas, que son más lentos pero pueden tener mucha más capacidad que la memoria principal.">Memoria Externa (ME)</div>
+
+                        <div tabindex="0" class="pc-scheme__component salida" data-toggle="popover" data-trigger="focus" title="Unidad de Salida (S)" data-content="Es un dispositivo por el que se obtienen los resultados de los programas ejecutados en el computador.">Salida (S)</div>
+                        
+                        <div id="pc-scheme__inside">
+                            <div tabindex="0" class="info-text">Unidades Centrales</div>
+                            <div tabindex="0" class="pc-scheme__component control" data-toggle="popover" data-trigger="focus" title="Unidad de Control (CU)" data-content="La unidad de control detecta señales eléctricas de estado procedentes de las distintas unidades, indicando su situación o condición de funcionamiento.">Unidad de Control(CU)</div>
+                            <div tabindex="0" class="pc-scheme__component interna" data-toggle="popover" data-trigger="focus" title="Memoria Interna (MI)" data-content="Es la unidad donde se almacenan tanto los datos como las instrucciones durante la ejecución de los programas.">Memoria Interna (MI)</div>
+                            <div tabindex="0" class="pc-scheme__component alu" data-toggle="popover" data-trigger="focus" title="ALU (Arithmetic Logic Unit)" data-content="Contiene los circuitos electrónicos con los que se hacen las operaciones de tipo aritmético (sumas, restas, etc.) y de tipo lógico (comparar dos números, hacer operaciones del álgebra de boole binaria, etc.). ">Unidad Aritmético-Lógica (ALU)</div>
+                            <div class="info-text cpu">Procesador (CPU)</div>
+                        </div><!-- /pc-scheme__inside -->
+                    </div><!-- /pc-scheme -->
+                </section><!-- /item-2 -->
+
+                <section id="item-3">
+                    <h3>El Procesador</h3>
+                    <svg style="position: absolute; left: 34.5%; top: 150px; width: 5px; height: 180px; z-index: 999;">
+                        <path fill="none" stroke="blue" d="M0 0 V180"/>
+                    </svg>
+                    <div class="card">
+                        <div class="row no-gutters">
+                            <div class="col-4 pt-5">
+                                <img src="assets/imgs/procesador/procesador.jpg" alt="no-image-aviable" class="card-img" />
+                            </div><!-- /col -->
+                            <div class="col-8">
+                                <div class="card-body">
+                                    <h4 class="card-title text-center">Es el Cerebro de la Computadora</h4>
+                                    <p class="card-text">Un circuito integrado complejo que se encarga de dar instrucciones programadas mediante operaciones aritméticas y lógicas a través del sistema operativo. Posee varias unidades centrales de procesamiento, las cuales están constituidas por registros, unidad de control, unidad lógica y unidad que funciona como coprocesador matemático.</p>
+                                    <p class="card-text">La frecuencia de reloj de los procesadores indican la frecuencia con la cual la corriente eléctrica entra y sale por los transistores. Esta magnitud física se mide por Hz (Hertz) y determina los ciclos eléctricos por segundo dentro de un transistor.</p>
+                                </div><!-- /card-body -->
+                            </div><!-- /col -->
+                        </div><!-- /row -->
+                    </div><!-- /card -->
+                    <div id="processors">
+
+                        <div class="img-container img-container-1">
+                            <div class="content">
+                                <h5 class="content-title">Intel 4004</h5>
+                                <h5 class="content-body">1971</h5>
+                            </div><!-- /content -->
+                            <img src="assets/imgs/procesador/1-intel-4004.jpg" alt="no-image-aviable"/>
+                        </div><!-- /img-container -->
+
+                        <div class="img-container img-container-2">
+                            <div class="content">
+                                <h5 class="content-title">Intel i8800</h5>
+                                <h5 class="content-body">1974</h5>
+                            </div><!-- /content -->                            
+                            <img src="assets/imgs/procesador/2-intel-8800.jpg" alt="no-image-aviable" />
+                        </div><!-- /img-container -->
+
+                        <div class="img-container img-container-3">
+                            <div class="content">
+                                <h5 class="content-title">Intel i386</h5>
+                                <h5 class="content-body">1985</h5>
+                            </div><!-- /content -->
+                            <img src="assets/imgs/procesador/3-intel386.png" alt="no-image-aviable" />
+                        </div><!-- /img-container -->
+
+                        <div class="img-container img-container-4">
+                            <div class="content">
+                                <h5 class="content-title">Amd Athlon 64</h5>
+                                <h5 class="content-body">2004</h5>
+                            </div><!-- /content -->
+                            <img src="assets/imgs/procesador/4-amd-64.jpg" alt="no-image-aviable" />
+                        </div><!-- /img-container -->
+
+                        <div class="img-container img-container-5">
+                            <div class="content">
+                                <h5 class="content-title">Intel i7-8086K</h5>
+                                <h5 class="content-body">2018</h5>
+                            </div><!-- /content -->
+                            <img src="assets/imgs/procesador/5-intel8086.png" alt="no-image-aviable" />
+                        </div><!-- /img-container -->
+
+                        <div class="img-container img-container-6">
+                            <div class="content">
+                                <h5 class="content-title">AMD Ryzen 5</h5>
+                                <h5 class="content-body">2018</h5>
+                            </div><!-- /content -->
+                            <img src="assets/imgs/procesador/6-amd-2400.jpg" alt="no-image-aviable" />
+                        </div><!-- /img-container -->
+                    </div><!-- /proccesors-carousel -->
+                </section><!-- /item-3 -->
+
+                <section id="item-4">
+                    <h3>Elementos Internos de un Procesador</h3>
+                    <div id="cpu-scheme">
+                        <div class="d-flex">
+                            <div id="cpu-scheme__left" class="side">
+                                <svg id="cpu-scheme-svg" style="position: absolute; width: 600px; height: 500px;">
+                                    <path id="rf-alu-1" fill="none" d="M313 370 v30 h-292 v-315 h120 v35"/>
+                                    <path id="rf-alu-2" fill="none" d="M140 340 v25 h65 v-180 h50 v40"/>
+                                    <path id="rt-alu" fill="none" d="M375 180 v40"/>
+                                    <path id="alu-ff" fill="none" d="M368 325 h100"/>
+                                </svg><!-- /pc-scheme-svg -->
+                                <div class="info-text text-center">Unidade de Tratamiento</div>
+                                <div tabindex="0" id="cpu-scheme__component" class="RF" data-toggle="popover" data-trigger="focus" title="Register File (Archivo de Registro)" data-content="En este suelen integrarse un conjunto de registros denominados Registros de Uso General. Estos registros se utilizan como almacén temporal de los datos con los que va a operar la ALU o de resultados intermedios.">RF</div>
+                                <div tabindex="1" id="cpu-scheme__component" class="RT" data-toggle="popover" data-trigger="focus" title="Register Temporary (Registro Temporal)" data-content="Se utiliza para almacenar en él uno de los operandos de la ALU. En definitiva, del esquema de la figura se deduce que la ALU opera con el contenido de uno de los registros de RF y el contenido de RT, guardando el resultado en uno de los registros de RF.">RT</div>
+                                <div tabindex="2" id="cpu-scheme__component" class="ALU" data-toggle="popover" data-trigger="focus" title="ALU (Unidad Aritmético-Lógica)" data-content="Este se encarga de realizar las operaciones matemáticas y las comparaciones lógicas mediante los datos de entrada."><span>ALU</span></div>
+                                <div tabindex="3" id="cpu-scheme__component" class="FF" data-toggle="popover" data-trigger="focus" title="Flag Flip-Flops (Biestables Indicadores)" data-content="Asociado a la ALU hay unos biestables indicadores o biestables de condición">FF</div>
+                                <div tabindex="4" id="cpu-scheme__component" class="Z" data-toggle="popover" data-trigger="focus" title="Z: Indicador de Cero" data-content="Si el último resultado que ha lanzado la ALU es cero, Z ←1.">Z</div>
+                                <div tabindex="5" id="cpu-scheme__component" class="S" data-toggle="popover" data-trigger="focus" title="S: Indicador de Signo" data-content="Si el último resultado de la ALU es negativo, por ejemplo S ←1">S</div>
+                                <div tabindex="6" id="cpu-scheme__component" class="C" data-toggle="popover" data-trigger="focus" title="C: Acarreo" data-content="Durante las operaciones aritméticas, principalmente la suma, se suelen transferir un dígito de una columna de dígitos a otra de mayor potencia.">C</div>
+                                <div tabindex="7" id="cpu-scheme__component" class="V" data-toggle="popover" data-trigger="focus" title="V: Indicador de Desbordamiento" data-content="El mismo indica si hubo un desbordamiento">V</div>
+                                <div tabindex="8" id="cpu-scheme__component" class="AR" data-toggle="popover" data-trigger="focus" title="Address Register (Registro de Dirección)" data-content="En esta se ubica la dirección del dato/instrucción a leer o escribir.">AR</div>
+                                <div tabindex="9" id="cpu-scheme__component" class="DR" data-toggle="popover" data-trigger="focus" title="Data Register (Registro de Datos)" data-content="En este se almacena el dato a escribir en la memoria o en un puerto de salida, o la información leída de la memoria o de un puerto de entrada, dependiendo del caso.">DR</div>
+                            </div><!-- /cpu-scheme__left -->
+                            <div id="cpu-scheme__right" class="side">
+                                <svg id="cpu-scheme-svg" style="position: absolute; width: 400px; height: 500px;">
+                                    <path id="reloj-logic" fill="none" d="M95 180 h20 v-40 h40"/>
+                                </svg><!-- /pc-scheme-svg -->
+                                <svg id="clock" style="position: absolute; width: 200px; height: 200px;">
+                                    <path stroke="black" fill="none" d="M50 135 h20 v-30 h9 v30 h9 v-30 h9 v30 h9 v-30 h9 v30"/>
+                                </svg><!-- /pc-scheme-svg -->
+                                <div class="info-text text-center">Unidad de Control</div>
+                                <div tabindex="10" id="cpu-scheme__component" class="reloj" data-toggle="popover" data-trigger="focus" title="reloj" data-content="Este es un generador de pulsos, con los que se sincronizan todas las microoperaciones que implican la ejecución de las distintas instrucciones máquina.">reloj</div>
+                                <div tabindex="11" id="cpu-scheme__component" class="SP" data-toggle="popover" data-trigger="focus" title="Stack Pointer (Puntero de Pila)" data-content="El puntero de pila físicamente es, como el contador de programa, un contador binario ascendente con la opción de carga en paralelo.">SP</div>
+                                <div tabindex="12" id="cpu-scheme__component" class="IR" data-toggle="popover" data-trigger="focus" title="Instruction Register (Registro de Instrucción)" data-content="Está dedicado a memorizar temporalmente la instrucción del programa que la unidad de control está interpretando o ejecutando.">IR</div>
+                                <div tabindex="13" id="cpu-scheme__component" class="PC" data-toggle="popover" data-trigger="focus" title="Program Counter (Contador del Programa)" data-content="Es un registro-contador, que actúa como contador ascendente binario, con posibilidad de carga paralela y que contiene la dirección de memoria dónde se encuentra la instrucción siguiente a ejecutar.">PC</div>
+                                <div tabindex="14" id="cpu-scheme__component" class="logica" data-toggle="popover" data-trigger="focus" title="Lógica de Control" data-content="Está constituida por los circuitos que generan las distintas señales de control.">Lógica de Control</div>
+                            </div><!-- /cpu-scheme__right -->
+                        </div><!-- /flex -->
+                    </div><!-- /cpu-scheme -->
+                </section><!-- /item-4 -->
+
+                <section id="item-5">
+                    <h3>Temporización en la Ejecución de Instrucciones</h3>
+                    <div class="card">
+                        <div class="row no-gutters">
+                            <div class="col-6">
+                                <div class="card-body">
+                                    <h4 class="card-title text-center">Fase de captación de instrucción</h4>
+                                    <p class="card-text pl-5 pt-2">AR ← PC</p>
+                                    <p class="card-text pl-5">DR ← M(AR)</p>
+                                    <p class="card-text pl-5">IR ← DR</p>
+                                    <p class="card-text pl-5">PC ← PC + 1</p>
+                                    <p class="card-text pl-4" style="font-style: italic;">(Suponemos que cada instrucción ocupa una sola posición de memoria.)</p>
+                                </div><!-- /card-body -->
+                            </div><!-- /col -->
+                            <div class="col-6">
+                                <div class="card-body">
+                                    <h4 class="card-title text-center">Fase de Ejecución</h4>
+                                    <p class="card-text">Se realizan las operaciones específicas correspondientes al codop de la instrucción almacenada en IR. Dependiendo de la instrucción se efectúan operaciones tales como captación o búsqueda de operandos en memoria, cálculos en la ALU, almacenamiento de resultados en registros o memoria, etc.</p>
+                                    <p class="card-text">De la descripción anterior se deduce que la ejecución de una instrucción lleva consigo, por lo menos, un acceso a memoria (para captar la instrucción), pudiendo efectuar accesos adicionales (captación de datos, memorización de resultados, etc.).</p>
+                                </div><!-- /card-body -->
+                            </div><!-- /col -->
+                        </div><!-- /row -->
+                    </div><!-- /card -->
+                    <div class="row img">
+                        <div class="col-3 offset-2">
+                            <img src="assets/imgs/temporizacion/temp.JPG" alt="no-image-aviable" />
+                        </div>
+                    </div>
+                </section><!-- /item-5 -->
+
+                <section id="item-6">
+                    <div class="container-fluid mt-4">
+                        <div class="card">
+                            <div class="row">
+                                <div class="col-10 offset-1">
+                                    <div class="card-body">
+                                        <h4 class="card-title text-center">Una interrupción interrupción</h4>
+                                        <p class="card-text">Es una detención de la ejecución de un programa antes de que concluya para ejecutar otro. Normalmente, la detención se realiza para ejecutar otro procedimiento prioritario denominado programa de gestión de la interrupción, soliéndose continuar después con la ejecución del programa interrumpido.</p>
+                                    </div><!-- /card-body -->
+                                </div><!-- /col -->
+                                <div class="col-12 mb-2 pl-2 text-center text-bold">
+                                    <span>Fallo de la alimentación | </span>
+                                    <span>Anomalías del Hardware | </span>
+                                    <span>Petición de E/S de un Periférico | </span>
+                                    <span>Desbordamiento | </span>
+                                    <span>Utilización de una instrucción máquina inexistente | </span>
+                                    <span>Gestión de tiempo compartido | </span>
+                                    <span>Violación de la protección de memoria | </span>
+                                    <span>Peticiones del programador o usuario</span>
+                                </div><!-- /col -->
+                            </div><!-- /row -->
+                        </div><!-- /card -->
+                    </div><!-- /container-fluid -->
+                    
+                    <div class="container-fluid">
+                        <div id="img" class="card mt-2">
+                            <div class="row no-gutters">
+                                <div class="col-8 offset-2">
+                                    <div id="numbers">
+                                        <div id="n1" class="number" data-toggle="popover" title="Petición de interrupción (“Interruption Request”, o IR)" data-content="La petición de interrupción se realiza por medio de una señal eléctrica enviada al procesador. Por lo general el procesador no atiende inmediatamente la petición de interrupción, si no que antes acaba de ejecutar la instrucción o ciclo de lectura/escritura en memoria en curso. Un mismo procesador dispone de varias líneas de petición de interrupción">1</div>
+                                        <div tabindex="0" id="n2" class="number" data-toggle="popover" data-trigger="focus" title="La atención o tratamiento de la interrupción (“Interruption Acknowledge” o IA)" data-content="Suele comenzar con un procedimiento de servicio de inicio de la interrupción. Este procedimiento analiza la causa de la interrupción, inhabilita –si se requiere– la posibilidad de atender otras interrupciones, salva en memoria principal el contenido de los registros del procesador que fuese a utilizar el procedimiento que atiende la interrupción, y pasa el control a este último.">2</div>
+                                        <div tabindex="0" id="n3" class="number" data-toggle="popover" data-trigger="focus" title="Se ejecuta el procedimiento o módulo preferente" data-content="Atendiéndose, por tanto, al servicio requerido por la interrupción. Por ejemplo, si la interrupción la solicitó el periférico de entrada de código 1101, el procedimiento contiene las instrucciones necesarias para leer el contenido del puerto o puertos del mismo y enviar el mensaje correspondiente al usuario (posiblemente el cursor que aparece en pantalla).">3</div>
+                                        <div tabindex="0" id="n4" class="number" data-toggle="popover" data-trigger="focus" title="Se ejecuta un procedimiento de fin de interrupción" data-content="Que, por ejemplo, restaura el contenido de los registros del procedimiento que se interrumpió (los extrae de la pila, caso de que se hubiesen almacenado allí), y habilita, en su caso, las interrupciones inhabilitadas en el Paso 2.">4</div>
+                                        <div tabindex="0" id="n5" class="number" data-toggle="popover" data-trigger="focus" title="Se pasa el control al programa interrumpido," data-content="continuándose éste.">5</div>
+                                    </div><!-- /numbers -->
+                                    <img src="assets/imgs/interrupcion/esquema.JPG" alt="no-image-aviable" class="card-img" />
+                                </div><!-- /col -->
+                            </div><!-- /row -->
+                        </div><!-- /card -->
+                    </div><!-- /container-fluid -->
+
+                </section><!-- /item-6 -->
+
+            </main><!-- /main -->
+            <!-- /MAIN CONTENT -->
+
+            <footer id="main-footer">
+                <div class="row pl-5 pr-5">
+                    <div class="col-6">
+                        <span id="student">Reynel Axel Perdomo</span>
+                    </div>
+                    <div class="col-6 text-right">
+                        <span id="tuition">2012-6517</span>
+                    </div>
+                </div>
+            </footer>
+
+        </div><!-- /row -->
+    </div><!-- /container-fluid -->
+
+
+    <!-- Bootstrap dependences JavaScript -->
+    <script src="assets/js/jquery-3.2.1.min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/app.js"></script>
+</body>
+</html>
